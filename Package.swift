@@ -15,7 +15,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/vapor/vapor.git", from: "4.0.0"),
-        .package(url: "https://github.com/vapor/fluent.git", from: "4.0.0"),
+        .package(url: "https://github.com/prism-ipx/prism-fluent.git", from: "4.0.0"),
         .package(url: "https://github.com/vapor/sql-kit.git", from: "3.6.0"),
         .package(url: "https://github.com/vapor/queues.git", from: "1.5.1"),
     ],
