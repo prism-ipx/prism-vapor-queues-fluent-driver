@@ -24,7 +24,7 @@ let package = Package(
             name: "QueuesFluentDriver",
             dependencies: [
                 .product(name: "Vapor", package: "vapor"),
-                .product(name: "Fluent", package: "fluent"),
+                .product(name: "Fluent", package: "prism-fluent"),
                 .product(name: "SQLKit", package: "sql-kit"),
                 .product(name: "Queues", package: "queues")
             ],
